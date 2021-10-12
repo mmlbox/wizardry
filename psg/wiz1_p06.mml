@@ -1,0 +1,49 @@
+;[gain=1.0 name=wiz1_p06 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 75
+#title {"[PSG] FC Wizardry - Temple of Cant"}
+@e0={,,9cdeedddcc} ; 37bfdcba98
+
+1 [0 
+1 v15k3 o5
+1 @e0 q6
+1 d+8&d+8c8d8<a+8>c8<g+8a+16>c16<a+8f8g8&g8>c8&c8c4&c8 d8d2&d8&d8
+1 d+8&d+8c8d8<a+8>c8<g+8a+16>c16<a+8f8g8&g8>c8&c8c4&c8<b8>c2&c8&c8
+1 @e0
+1 e8c8d8e8f8g16f16e8c8c8d8<b16a16b8>c8<b16a16b8.a16g+8a8a4&a8&a8e8a8>
+1 e8c8d8e8f8g16f16e8c8c8d8<b16a16b8>c8<a+16g+16a+8g+8g8>c8<a4&a8&a8f8>c8
+1 d8<a+8>c8d8d+8f16g16c+8<a8b8>c+8d8e16f16<b8g8a8b8>c8d16d+16g+8g8f8d+8d8&d8
+1 @e0
+1 d+8&d+8c8d8<a+8>c8<g+8a+16>c16<a+8f8g8&g8>c8&c8c4&c8<b8>c2&c8&c8
+1 ]
+
+@e1={,,8acddccccb} ; 258ba99876
+
+2 [0 
+2 v15k3 o4
+2 @e1
+2 q7g4d+4d4d+4d4q6c8d16d+16c8d8d+8f8g8g+8q7g2&g4
+2 q7g4d+4d4d+4d4q6<a+8>c16d16d+8d8c8d8d+8d8f8d8f8e16d16q7e4
+2 @e1 
+2 q6g8e8f8g8a8a+16a16g8e8q7f4q6f8d8q7e4q6f16<b16>d16f16d16<b16>e16d16d24e24d24c+16<b16>q7c+4&c+4
+2 q6g8e8f8g8a8a+16a16g8e8q7f4q6f8d8q7d+4q6d8d+16f16<a+8>d+8d+24f24d+24d16d+16q7c4&c4
+2 @e1 
+2 q7f4&f4q6d+16g16a+8q7e4&e4q6d16f16a8
+2 q7d4&d4q6c16d+16g8>c8<a+8>c8<a8q7b4
+2 @e1
+2 q7g4d+4d4d+4d4q6<a+8>c16d16c8d8d+8f8g8f8f24g24f24e16d16q7e4&e4
+2 ] 
+
+3 [0 v15@e31k1q8o3
+3 c%46r%2g+%46r%2g%46r%2f%46r%2g%46r%2g+%46r%2<g+%22r%2a+%22r%2>c%22r%2d%22r%2
+3 d+%22r%2f%22r%2g%10r%2a%10r%2b%10r%2>c%10r%2d%10r%2<b%10r%2g%10r%2d%10r%2<g%46r%2>
+3 c%46r%2g+%46r%2g%46r%2f%46r%2<a+%46r%2>d+%46r%2c%22r%2<a+%22r%2g+%22r%2a+%22r%2>c%22r%2<g%22r%2>
+3 g+%22r%2f%22r%2g+%22r%2g%10r%2f%10r%2c%46r%2>
+3 c%94r%2<a+%46r%2a%46r%2d%46r%2g%46r%2a%46r%2d%46r%2e%22r%2<e%22r%2a%22r%2>e%22r%2a%94r%2>
+3 c%94r%2<a+4a4d%46r%2g%46r%2g+%46r%2<a+%22r%2>c%10r%2d%10r%2d+%22r%2<g+%22r%2f%22r%2>c%22r%2f%94r%2
+3 a+%46r%2g+%46r%2g%46r%2a%46r%2g%46r%2f%46r%2g%46r%2f%46r%2
+3 d+%46r%2<f%22r%2g%22r%2g+%22r%2f+%22r%2g%46r%2>c%46r%2g+%46r%2g%46r%2f%46r%2<
+3 a+%46r%2>d+%46r%2<g+%22r%2a+%22r%2>c%22r%2d%22r%2d+%22r%2<g%22r%2c%22r%2g%22r%2>c%22r%2g%22r%2>c%46r%2
+3 ]
+
+@e31={,,dccb}

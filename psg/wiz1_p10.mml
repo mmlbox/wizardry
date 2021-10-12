@@ -1,0 +1,44 @@
+;[gain=1.0 name=wiz1_p10 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 75
+#title {"[PSG] FC Wizardry - Camp"}
+@e0={,,9cdeeedddcc}  ; 37bfedcba98
+
+1 [0 
+1 v15o5q6
+1 @e0k3
+1 c8&c8c8d8d8c8<b16a16b8&b8g8a8b8>c8d16e16f8e8a8g8g8f16e16f4.&f8
+1 e8&e8e8.&e8f16g16a16d8&d8d8.&d8e16f16g16c4c8.&c8d16e16f16c8<b16a16b8&b8>c8&c8
+1 e8&e8e8f8f8e8f16e16f8&f8c8f8a8>c8<
+1 a+16a16a+8a16g16a16g16f16a16g8f16e16d16c16<b16a16g8&g8>
+1 e4.&e8d8e16d16c+2&c+8c+8d4.&d8c8d16c16<b4.&b8
+1 e4e4.&e8a8>c8<b4.&b8g+8e8a4.&a8g8f8e2^8&e8
+1 ]
+
+@e1={,,8acddccccb}  ; 258ba99876
+
+2 [0 
+2 v15o4q6
+2 @e0k3
+2 e4e8a8a8d8d4&d8<b8>c8f8e4>c8c8c8c8c8<a8
+2 >d8c8<b8a8g8>d8c8<b8a8g8f8>c8<b8a8g8f8e8b8a8g8f8a8
+2 f8&f8f8d8e8&e8
+2 g8&g8g8>c8c8<g8>c8&c8<f8e8d8c8<a+8&a+8>c8&c8
+2 c8f8<b4&b8b8b8>c8r8d8f+8a8g+8d8r8c+8
+2 e8g+8f+8&f+8r8c8e8g8f+8c8r8<b8>d8f+8<b8&b8
+2 [r16a16>c16e16a16>c16e16a16>c8&c8r16<<<g+16b16>e16g+16b16>e16g+16b8&b8<<]2
+2 ]
+
+3 [0 
+3 v15@e31k1q8o3
+3 a%94r%2f%46r%2g%46r%2<g%22r%2>f%22r%2e%22r%2d%22r%2c%46r%2a%22r%2g%22r%2
+3 f%22r%2e%22r%2d%46r%2g%46r%2<g%46r%2>c%22r%2b%22r%2a%22r%2g%22r%2
+3 f%22r%2e%22r%2<b%22r%2>a%22r%2
+3 g%22r%2f%22r%2e%22r%2d%22r%2<a%22r%2>g%22r%2f%22r%2e%22r%2d%22r%2f%22r%2g%46r%2<g%46r%2>c%46r%2
+3 >c%94r%2<a+%46r%2a%46r%2a%22r%2g%22r%2f%22r%2e%22r%2
+3 d%46r%2e%46r%2f%22r%2<a%22r%2>g%70r%2g%22r%2g%22r%2a%22r%2<b%94r%2>e%46r%2<a%94r%2
+3 >e%46r%2<a%94r%2>d%46r%2<g%94r%2>g%46r%2
+3 f%142r%2e%142r%2<f%142r%2e%142r%2
+3 ]
+
+@e31={,,dccb}

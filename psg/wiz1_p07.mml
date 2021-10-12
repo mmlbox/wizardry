@@ -1,0 +1,21 @@
+;[gain=1.0 name=wiz1_p07 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 75
+#title {"[PSG] FC Wizardry - Murmur - Chant - Pray - Invoke!"}
+@e0={,,9cdeeedddcc} ; 37bfedcba98
+@e1={,,8acdddcccb} ; 258cba9876
+
+1 v15k3 o3
+1 @e0 
+1 a%40r%8>c%40r%8d+%40r%8f%40r%8g2&g%40r%8
+2 v15k3 o3
+2 @e1
+2 c%42r%6d+%42r%6f+%42r%6g+%42r%6a+2&a+%42r%6
+
+ 
+3 v15@e31k1 o2
+3 f%46r%2g+%46r%2b%46r%2>c+%46r%2d+2&d+%46r%2
+
+123 r4
+
+@e31={,,dccb}

@@ -1,0 +1,21 @@
+;[gain=1.0 name=wiz1_p11 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 180
+#title {"[PSG] FC Wizardry - Enconter"}
+123 l16
+
+@e0={,,eeeedddcccba99870} ; ffedcba9876543210
+@e1={,,e} ; f
+
+1 v15o4q8k3   
+1 @e0aa+b>c@e1c+%12r%36 @e0c+dd+e@e1f%12r%36 @e0ff+gg+@e1a2&a%12r%36
+
+@e2={,,dddcccba99870} ; cba9876543210
+@e3={,,d} ; c
+
+2 v15o4q8k3  
+2 @e2c+dd+e@e3f%19r%29 @e2ff+gg+@e3a%19r%29 @e2aa+b>c@e3c+2&c+%19r%29
+
+3 v15@e31k1o3 g%8r%4g+%8r%4a%8r%4a+%8r%4b%44r%4 b%8r%4>c%8r%4c+%8r%4d%8r%4d+%44r%4 d+%8r%4e%8r%4f%8r%4f+%8r%4g2&g%44r%4
+
+@e31={,,dccb}

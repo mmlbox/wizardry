@@ -1,0 +1,58 @@
+;[gain=1.0 name=wiz1_p17 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 150
+#title {"[PSG] FC Wizardry - Complete"}
+@e0={,,e} ; f
+@e1={,,eeedddcccba99870} ; fedcba9876543210
+
+#macro_offset { s=0, t=1 }
+
+*0={@e0q8}
+*1={@e1q8}
+
+1 [0 
+1 v15o4k3
+1 *se%18r%30*te12g12>c12*se%18r%30*td+8e8*sf8&f%18r%30*te8*sd%18r%30*te8d8*sc%18r%30*t<b8>c8d8c8<b8a8*sg%18r%30
+1 *t > [g12]9 <
+1 *se%18r%30*te12g12>c12*se%18r%30*td+8e8*sf8&f%18r%30*te8*sd%18r%30a%18r%30g%18r%30*tf8e8*sd%18r%30*tc8<b8>*sc2&c%18r%30<
+1 *tg8g8*sb8&b%18r%30*tb8>c8<b8a8b8>*sc8&c%18r%30*td8*se4&e%18r%30<a8&a%18r%30>*tc+8d8e8f8d8*sc4&c%18r%30<b%18r%30
+1 *tg8g8>*sg4&g%18r%30f%18r%30e%18r%30d4&d%18r%30e%18r%30*tk0c12r12k3c12*sg4&g%18r%30f%18r%30e%18r%30a2&a%18r%30f+%18r%30
+1 *tg12e12c12<g12e12c12e12c12e12g12>c12e12 *sg4&g12&g%18r%30*td12a12g12<g12>g12>*sc1&c12&c4*t<b12>c12
+1 c12<b12>c12c12<b12>c12*sc1&c4*t<d12f12a12*sg4&g%18r%30
+1 ] 
+
+#macro_offset { s=2, t=1 }
+*2={@e0q4}
+
+2 [0
+2 v12k3
+2 o3
+2 *sg4>*tc12e12g12>*sc4*tc8c8*sc8&c4*tc8*sc4<*tf8<b8>*se4e4a4*tf+8c8<*sb4
+2 *t>>c12c12c12c+12c+12c+12d12d12<b12<
+2 *sg4>*tc12e12g12>*sc4*tc8c8*sc8&c4*tc8*sc4*tc8d8*se4<a4f4*tf8d8[f12d12f12]2*se4&e4
+2 *td8*sg4*tg8d8*sg4*tg8 c8*sg4*tg8g8e8f8g8 f8d8g8e8f8g8a8f8 *tf8*sd4*tf8*sd4*tf8f8>
+2 c12<g12e12e12g12>c12c12<a12f12>c12<g12e12
+2 a12f12d12<b12>f12g12>c12<g12e12e12g12e12>
+2 c12<g12e12e12g12>c12c12<a12f12>c12<g12e12<
+2 a12>c12f12a12f12a12>c12<f12>c12c12<a12>c12
+2 c12<g12e12c12<g12e12>c12<g12>c12c12a12>c12<
+2 b12g12f+12f12e12d+12d12a12>c12<*sb4*t>
+2 e12c12e12g12c12g12f12c12f12e12c12e12
+2 d+12c12<a12a12>c12d+12e12c12<g12>c12e12g12
+2 e12c12e12g12c12g12f12c12f12e12c12e12d12<
+2 a12f12f12a12>c12<*sb2
+2 ]
+
+3 [0 
+3 v15@e31k1o3
+3 c%44r%4g%12r%4>c%12r%4e%12r%4g%44r%4f+%20r%4g%20r%4a%68r%4g%20r%4f%44r%4<g%44r%4a%44r%4g%44r%4f+%44r%4d%44r%4g%44r%4a%44r%4a+%44r%4b%28r%4g%12r%4
+3 c%44r%4g%12r%4>c%12r%4e%12r%4g%44r%4f+%20r%4g%20r%4a%68r%4g%20r%4f%44r%4<a%20r%4b%20r%4>c%44r%4<f%44r%4g%44r%4<g%44r%4>[a%12r%4f%12r%4a%12r%4]2c%92r%4<
+3 g%44r%4>g%44r%4f%44r%4<f%44r%4e%44r%4>e%44r%4c%20r%4c%20r%4d%20r%4e%20r%4f%44r%4e%44r%4d%20r%4e%20r%4f%20r%4d%20r%4g%44r%4<g%44r%4>g%44r%4
+3 b%20r%4b%20r%4a+%92r%4a%44r%4g%44r%4f%44r%4g%44r%4c%44r%4b%12r%4r12b%12r%4a+%44r%4<a+%44r%4a%44r%4g%44r%4f%44r%4>f%44r%4a%44r%4d+%44r%4
+3 e%92r%4c%44r%4e%12r%4f%12r%4f+%12r%4g%12r%4b%12r%4a+%12r%4a%12r%4g%12r%4f+%12r%4f%44r%4<g%44r%4
+3 >c%44r%4<a+%44r%4a%44r%4g%44r%4f+%44r%4>
+3 d+%12r%4f+%12r%4a%12r%4g%12r%4e%12r%4c%12r%4e%12r%4g%12r%4>c%12r%4<c%44r%4
+3 <a+%44r%4a%44r%4g%44r%4f%44r%4>a%12r%4f%12r%4d%12r%4<g%92r%4
+3 ]
+
+@e31={,,dccb}

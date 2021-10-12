@@ -1,0 +1,21 @@
+;[gain=1.0 name=wiz1_p13 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 150
+#title {"[PSG] FC Wizardry - Victory"}
+@e0={,,9cdeeedddcccba99870}  ; 37bfedcba9876543210
+@e1={,,9cdeeedddcc}  ; 37bfedcba98
+
+1 v15q8k3o4 
+1 @e0 f+8.f+16f+8 f+8d8f+8 a8f+8a8 a+8f8a+8 > d8.e8. @e1f+16&f+1r4
+
+@e2={,,89cdddccccba99870}  ; 248cba98876543210
+@e3={,,89cdddccccb}  ; 248cba98876
+
+2 v15q8k3o4 
+2 @e2 d8.d16d8 d8<a8>d8 f+8d8f+8 f8d8f8 f+8.b8. @e3a+16&a+1r4
+
+3 v15@e31k1o3 
+3 a8&a%8r%4a%8r%4a%20r%4 a%20r%4f+%20r%4a%20r%4 >d%20r%4<a%20r%4>d%20r%4 
+3 d%20r%4<a+%20r%4>d%20r%4 d8&d%8r%4<g+8&g+%8r%4f+1&f+%20r%4r4
+
+@e31={,,dccb}

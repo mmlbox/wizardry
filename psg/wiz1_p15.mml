@@ -1,0 +1,17 @@
+;[gain=1.0 name=wiz1_p15 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 128
+#title {"[PSG] FC Wizardry - Blue Ribbon"}
+@e0={,,eedcca970} ; fdb975310
+@e1={,,eeedddcc} ; fedcba98
+
+1 @e0k0v15o5 f16g+16>c16<g+16 <b16>d16f+16b16 f+16a16>c+16<a16 c16d+16g16>@e1k3c2r16
+
+@e2={,,ddcca987} ; ca875421
+@e3={,,dddccccb} ; cba98876
+
+2 @e2k3v15o5 c%45r%3<f+%45r%3>c+%45r%3<@e3k1g2&g8r16
+
+3 v15@e31k1o3 d%21r%3e%21r%3<g+%45r%3>d+%21r%3f%21r%3<a%141r%3
+
+@e31={,,dccb}

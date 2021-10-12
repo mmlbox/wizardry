@@ -1,0 +1,21 @@
+;[gain=1.0 name=wiz1_p04 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 150
+#title {"[PSG] FC Wizardry - Level Up"}
+@e0={0,0,9cdeeedddcc} ; 37bfedcba98
+
+1 v15k3o4
+1 @e0c+16f16b16>c+2..r16
+
+@e1={0,0,8bcedddccccba99870} ; 269dcba99876543210
+@e2={0,0,8bcedddcccc} ; 269dcba9987
+
+2 v15k3o3
+2 @e1b8.>@e2b2...r16
+
+3 v15@e31k1o3q8
+3 g8.>g2...
+
+123 r4
+
+@e31={,,dccb}

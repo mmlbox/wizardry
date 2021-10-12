@@ -1,0 +1,41 @@
+;[gain=1.0 name=wiz1_p05 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 128
+#title {"[PSG] FC Wizardry - Boltac's Trading Post"}
+@e0={0,0,eda8} ; fa52
+@e1={,,8acdddccccb} ; 258cba98876
+@e2={,,8acdddccccba99870} ; 258cba98876543210
+
+1 [0
+1 @e0v15o5o4k3 
+1 [b%20r%4>d%20r%4g%20r%4d%20r%4f%20r%4r8d%20r%4g%20r%4r8d%20r%4f%20r%4r8r2<]2 >
+1 e%20r%4g%20r%4>c%20r%4<g%20r%4a+%20r%4r8g%20r%4>c%20r%4r8<g%20r%4a+%20r%4r8r2
+1 e%20r%4g%20r%4>c%20r%4<g%20r%4a+%20r%4r8g%20r%4>c%20r%4r8<a+%20r%4g%20r%4r8r2
+1 <<
+1 @e1a2.&a%14r%10@e2g8@e1f+2&f+%38r%10@e2f+8g8@e1a2.&a%14r%10@e2g8@e1f+2..&f+%14r%10
+1 ]
+
+@e3={,,dccb998} ; a876432
+
+2 [0
+2 @e0v15o4q8k3
+2 [r2c%20r%4r8r8b%20r%4r4c%20r%4r8r2]2
+2 r2f%20r%4r8r8>e%20r%4<r4f%20r%4r8r2
+2 r2f%20r%4r8r8>e%20r%4<r4d%20r%4r8r2
+2 @e3
+2 r8c%20r%4f%20r%4a%20r%4r8f%20r%4c%20r%4r8r8d%20r%4f+%20r%4a%20r%4r2
+2 r8c%20r%4f%20r%4a%20r%4r8f%20r%4c%20r%4r8r8d%20r%4f+%20r%4a%20r%4r2
+2 ]0
+
+3 [0 
+3 v15@e31k1o3 
+3 g%20r%4r8r4d%20r%4r8r8<g%20r%4r4>d%20r%4r8r4<g%20r%4r8>
+3 g%20r%4r8r4d%20r%4r8r8<g%20r%4r4>d%20r%4r8r4g%20r%4r8>
+3 c%20r%4r8r4<g%20r%4r8r8c%20r%4r4g%20r%4r8r4c%20r%4r8>
+3 c%20r%4r8r4<g%20r%4r8r8c%20r%4r4a+%20r%4r8r4c%20r%4r8
+3 f2.&f%21r%3d+%21r%3d2&d%45r%3<
+3 d%21r%3d+%21r%3f2.&f%21r%3d+%21r%3
+3 d%189r%3
+3 ]
+
+@e31={,,dccb}

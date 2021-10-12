@@ -1,0 +1,57 @@
+;[gain=1.0 name=wiz1_p08 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 112
+#title {"[PSG] FC Wizardry - Edge of Town"}
+@e0={,,9deeedd} ; 4afedcb
+
+1 [0 
+1 v15o5
+1 @e0k3q2 
+1 e4&e8e8f4&f8e8d4&d8d8e8&e8c8&c8
+1 e4&e8g8f4&f8e8d8&d8c8<b8>c4.&c8
+1 e4&e8e8f4&f8e8d4&d8d8e8&e8c8&c8
+1 e4&e8g8f4&f8e8d8&d8c8<b8>c4.&c8<
+1 b4&b8>d8d8c8r8<a8 b4&b8>d8d8c8r8<a8
+1 b8>d8c8e8d8f+8q4g16e16<b16g16q2a+4.&a+8a8&a8r4
+1 b4&b8>d8d8c8r8<a8 b4&b8>d8d8c8r8<a8
+1 b8>d8c8e8d8f+8q4g16e16<b16g16q2b8&b8a8>d8g16&g8q4d16q2g8&g8
+1 g4&g8f+8f4&f8e8d8c8<b8a8g4.&g8
+1 g+4&g+8q4a+16g+16q2g4&g8q4g+16g16f+16g16f+16f16f+16a16>d16c16q2c8&c8<b8&b8
+1 ]
+
+@e1={,,9cddccc} ; 37ba998
+
+2 [0
+2 v15o4
+2 @e1k3q6
+2 r8g8>c8&c8r8<f8>c8&c8r8<f8>c8<b8g8e8e8g8
+2 r8g8>c8&c8r8<f8>c8&c8<a8f8f8d8f8d8e8&e8
+2 r8g8>c8&c8r8<f8>c8&c8r8<f8>c8<b8g8e8e8g8
+2 r8g8>c8&c8r8<f8>c8&c8<a8f8f8d8c8d8e8&e8
+2 r8d8g8f8f+8q8e16f16q6f+8q8c16d16q6<
+2 b8>d8g8f8f+8q8e16f16q6f+8q8c16d16q6
+2 d8f8e8g8g8a8b8r8r8q8d16c+16d16c+16d16c+16c16d16f+16d16q6c8d8
+2 r8d8g8f8f+8q8e16f16q6f+8q8c16d16q6<b8>d8g8f8f+8q8e16f16q6f+8q8c16d16q6
+2 d8f8e8g8g8a8b8r8r16q8g16e16c+16f+16d16c+16f+16k0r16k3<a+16b16>f+16q6g8&g8
+2 b4&b8a+8a4&a8g8f8e8d8c8<b4.&b8>d+8&d+8d4&d8<
+2 q8a+16b16q6>c8&c8c8&c8c8f+8f8q8d16e16q6f8&f8
+2 ]
+
+3 [0
+3 v15@e31k1q8 
+3 o4 
+3 c4&c%21r%3<a+%21r%3a4&a%21r%3g%21r%3f4&f%21r%3g%21r%3>c%45r%3<c%45r%3>
+3 c4&c%21r%3<a+%21r%3a4&a%21r%3g%21r%3f%45r%3g%21r%3<g%21r%3>>c%93r%3
+3 c4&c%21r%3<a+%21r%3a4&a%21r%3g%21r%3f4&f%21r%3g%21r%3>c%45r%3<c%45r%3>
+3 c4&c%21r%3<a+%21r%3a4&a%21r%3g%21r%3f%45r%3g%21r%3<g%21r%3g+%21r%3a+%21r%3>c%45r%3
+3 g4&g%21r%3g+%21r%3a%21r%3d%21r%3<d%21r%3>d%21r%3 g4&g%21r%3g+%21r%3a%21r%3d%21r%3<d%21r%3>d%21r%3
+3 g%21r%3g+%21r%3a%21r%3a+%21r%3b%21r%3>d+%21r%3e%21r%3r8
+3 r8<g+%9r%3g%9r%3g+%9r%3g%9r%3g+%9r%3g%9r%3f+%9r%3a%9r%3>c%9r%3<a%9r%3f+%9r%3d%9r%3e%9r%3f+%9r%3
+3 g4&g%21r%3g+%21r%3a%21r%3d%21r%3<d%21r%3>d%21r%3g4&g%21r%3g+%21r%3a8d8<d%21r%3>d%21r%3
+3 g%21r%3g+%21r%3a%21r%3a+%21r%3b%21r%3>d+%21r%3e%21r%3r8
+3 r16q8c+%9r%3<b%9r%3g%9r%3>c+%9r%3<a%9r%3f+%9r%3d%9r%3<g%9r%3>c+%9r%3d%9r%3a+%9r%3b%45r%3
+3 r8g%21r%3g%45r%3r8g%21r%3g%45r%3r8f+%21r%3g%21r%3f+%21r%3g%9r%3f+%9r%3g%9r%3d%9r%3<g%9r%3g+%9r%3g%9r%3f+%9r%3
+3 f%45r%3a+%45r%3d+%45r%3g+%45r%3d4.&d%21r%3g%45r%3>g%45r%3
+3 ] 
+
+@e31={,,dccb}
