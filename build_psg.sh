@@ -4,6 +4,6 @@ for F in scc/*.mml; do
   T=psg/wiz1_p$T
   echo "$F -> ${T}.mml"
   node make_psg $F > ${T}.mml
-  echo "$F -> ${T}.mgs"
-  mgsc-js $F -o ${T}.mgs
+  echo "${T}.mml -> ${T}.mgs"
+  mgsc-js ${T}.mml -o ${T%.mml}.mgs
 done
