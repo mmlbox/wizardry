@@ -1,0 +1,100 @@
+;[gain=2.0 name=wiz1_f00 duration=300s fade=5s cpu=0]
+#opll_mode 1
+#tempo 100
+#title {"[YM2413] FC Wizardry - Opening Theme"}
+
+A [
+A v13 @2 q5 o5
+A d8&d8f8d8e8f16g16f16&f8e16d8&d8
+A d16e16f16g16a8g16a16>c8d16c16
+A <f8a+8a4.&a8>c+16e16f16g16
+A a8g16f16e8f16g16f16e16d8f8e16d16
+A <b8>c+16d16c+16d16e16c+16d16e16f16a16a+8a8g8f8g4&g8<g8f8e8
+A d8&d8f8d8e8f16g16f16&f8g16a8&a8g16a16a+16>c16d8c+16d16e8f16e16
+A d8e8d8&d8c+8&c+8d16f16g16a16a+8g16f16e8f16g16a16g16f8g8e16d16
+A c+8d16e16d16e16f16d16e16f16g16a+16a8g8f8e8|d2^8&d8
+A @5 q5 <
+A f+4&f+8f+8g8a8a+16&a+8>c16d4.&d8<
+A e4&e8e8f8g8a16&a8a+16>c4.&c8
+A @5 q6
+A c+16<e16a16>c+16 c+16<a16a16>c+16 d16<a16>e16<a16>f16<a16>d16g16
+A a16d16f16a16 f16d16a16f16 a+16<a+16>d+16g16 a+16d+16a16<a+16>
+A g16<a+16>f16<g16> e16<b16>d16<g+16 >c+4
+A @2
+A <a16>e16a16>c+16d16&d8<a16a+4.&a+8>c16&c8<g16a4.&a8
+A a+16&a+8a16g+8e8a8g8f+8d8g8f8e8f16g16
+A f2^8&f8d+4.&d+8a+8&a+8d2^8&d8c+2^8&c+8
+A @5 q6
+A c2^8&c8<b2^8&b8a+2^8&a+8a2^8&a8>
+A @2 q5
+A >c4.&c8<c8&c8<b4.&b8>b8&b8a+4.&a+8<a+8&a+8a8&a8>a4.&a8<
+A ]2
+A d2..&d8
+
+B [
+B v13 @2 q7 o4
+B f8&f8a8f8g8a8a8&a8 f8&f8a+8&a+8a8&a8>g8&g8<
+B a+8&a+8>e8&e8d8&d8g8&g8 a+8d8<a+8>c8<a8>d8a8f8
+B g+8d8e8<a8>a8>c8f8e8 d8c8<b8g8e8d8c+8<g8
+B f8&f8a8f8a8&a8a8&a8>d+8&d+8d+8&d+8f8&f8a+8&a+8
+B b8e8e16f16g16g+16a16g16f16e16a8>d8
+B f16d16<a+8>c16<b16a+8>e8<a8>d16<g16a+8
+B a16g16f16g16f16g16a16f16g8a+8>c+8d8<a8g8g8f+16e16|f+4.&f+8
+B @5 q7
+B d4&d8d8d8&d8d8&d8d8g8d8<a+8>
+B c4&c8c8c8&c8c8&c8c8f8a8f8
+B @5 q7
+B e8c+8e8c+8d8g8a8f8 
+B >d16<f16a8a8>d8d+8<g8d+8f8d+8<g8>d8e8q6a16g16e16c+16c+8>c+8
+B @2 q6
+B a16f16d16<a16>d16a16>c16<a16<a+16g16a16f16>
+B g16e16c16<g16a16>c16f16c16<a16>c16<a16f16
+B a+16>f16d16<a+16>e16<b16g+16e16a16e16g+16a16>
+B d16<a16f+16d16d16<b16>d16g16g16d16g16a+16
+B a16f16a16>d16 f16d16<a16f16 d16f16a16>d16<
+B d+16<a+16>d+16g16 a+16d+16g16a+16 a+16g16a+16>d+16<
+B g16d16e16g16 a16e16g16d16 <a16>d16e16g16
+B g16c+16e16g16 a16g16e16c+16 <a16>c+16e16g16
+B @2 q8
+B >c16<a16f+16d+16c16d+16f+16a16>c16<a16f+16d+16b16g16d16<b16g16b16
+B >d16g16b16g16d16<b16>a+16g16e16c+16<a+16>c+16e16g16
+B a+16g16e16c+16a16f16d16<a16>d16f16a16>d16<f16a16>d16a16<
+B @2 q7
+B r12<a12>c12d+12c12d+12a8&a8
+B r12<b12>d12g12d12g12>d8&d8
+B r12<d12f12a+12f12a+12>d8&d8
+B r12<c+12e12a12e12a12>c+8&c+8
+B <<]2
+B f+2^8&f+8
+
+C v13 @2
+C [ o4
+; d2c4<a+2g4f4>e4
+C d%93r%3c%45r%3<a+%93r%3g%45r%3f%45r%3>e%45r%3
+; d4c+4<a+4a4g4>c4<f4b4
+C d%45r%3c+%45r%3<a+%45r%3a%45r%3g%45r%3>c%45r%3<f%45r%3b%45r%3
+; e4a8g8f8e8d8>c8<a+8a8g4.a+8a4
+C e%45r%3a%21r%3g%21r%3f%21r%3e%21r%3d%21r%3>c%21r%3<a+%21r%3a%21r%3g4&g%21r%3a+%21r%3a%45r%3
+; >d2c+4c4<b4>c8<f8a+4g4
+C >d%93r%3c+%45r%3c%45r%3<b%45r%3>c%21r%3<f%21r%3a+%45r%3g%45r%3
+; g+4a4.g8f8d8g8a+16b16>c8<g16f+16f4e8g16g+16
+C g+%45r%3a4&a%21r%3g%21r%3f%21r%3d%21r%3g%21r%3a+%9r%3b%9r%3>c%21r%3<g%9r%3f+%9r%3f%45r%3e%21r%3g%9r%3g+%9r%3
+; a8b16>c+16d8c8<a+8g8a8b8>c8c+8<a+8a16g16|d2
+C a%21r%3b%9r%3>c+%9r%3d%21r%3c%21r%3<a+%21r%3g%21r%3a%21r%3b%21r%3>c%21r%3c+%21r%3<a+%21r%3a%9r%3g%9r%3|d%93r%3
+; >>c4.c8<a+8a8g8.a16a+4g4>c4.<a+8
+C >>c4&c%21r%3c%21r%3<a+%21r%3a%21r%3g8&g%9r%3a%9r%3a+4g4>c4&c%21r%3<a+%21r%3
+; a8g8f8.g16a4f4a4.g8f8e8d8.e16
+C a%21r%3g%21r%3f8&f%9r%3g%9r%3a%45r%3f%45r%3a4&a%21r%3g%21r%3f%21r%3e%21r%3d8&d%9r%3e%9r%3
+; f4d8<f8g4.a8a+4b4>c+4<a8g8
+C f%45r%3d%21r%3<f%21r%3g4&g%21r%3a%21r%3a+%45r%3b%45r%3>c+%45r%3<a%21r%3g%21r%3
+; f4g4&g16>d16<a+16g16e4f4&f16f16e16c+16d4>d4c+4c4<
+C f%45r%3g4&g16>d16<a+16g16e%45r%3f4&f16f16e16c+16d%45r%3>d%45r%3c+%45r%3c%45r%3<
+; b4a+4a2a4g2g4a2a4a2a4
+C b%45r%3a+%45r%3a%93r%3a%45r%3g%93r%3g%45r%3a%93r%3a%45r%3a%93r%3a%45r%3
+; [d4>d4.|<d8]4<a8f+2&f+8f+8g2&g8g8g+2&g+8g+8a2.>]2
+C [d%45r%3>d4&d%21r%3|<d%21r%3]4<a%21r%3f+2&f+%21r%3f+%21r%3g2&g%21r%3g%21r%3g+2&g+%21r%3g+%21r%3a2&a%45r%3>]2
+; d2&d4
+C d2&d%45r%3
+
+ABC r4
+
